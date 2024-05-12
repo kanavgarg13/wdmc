@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend Developer and NITJ Student with a passion for backend, IoT and motorcycles.">
+    <meta name="keywords" content="DevOps, NITJ, Backend, IoT,  Motorcycles">
+    <meta name="author" content="Kanav Garg">
+    <title>Kanav Garg Frontend Developer</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            flex-direction: column; /* Align elements vertically */
+        }
+
+        header, main, footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .terminal {
+            border: 2px solid #0f0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            overflow: hidden;
+        }
+
+        .prompt {
+            color: #0f0;
+        }
+
+        .command {
+            color: #0af;
+        }
+
+        a {
+            color: #0f0;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: #0f0;
+            margin-bottom: 20px; /* Add some space below the heading */
+        }
+
+        h2 {
+            font-size: 1.4em;
+            color: #0f0;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #0a5;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 1em;
+            background-color: #0f0;
+            animation: blink 0.8s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50%, 100% {
+                opacity: 0;
+            }
+            25%, 75% {
+                opacity: 1;
+            }
+        }
+
+        .typing::after {
+            content: '';
+            display: inline-block;
+            animation: typing 2s steps(40, end);
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+
+        /* Style for the image */
+        #profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px; /* Add some space below the image */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="kanav1.jpg" alt="Aayan Mateen's Profile Picture" id="profile-image">
+    <h1>Welcome to Kanav Garg's Portfolio</h1>
+</header>
+<main>
+    <div class="terminal">
+        <pre>
+<span class="prompt">$</span> <span class="command">whoami</span>
+    Kanav Garg
+<span class="prompt">$</span> <span class="command">echo "Frontend Developer, NITJ Student"</span>
+    Frontend Developer, NITJ Student
+<span class="prompt">$</span> <span class="command">cat skills.txt</span>
+HTML,CSS,JS
+<span class="prompt">$</span> <span class="command">cat interests.txt</span>
+    Backend
+<span class="prompt">$</span> <span class="command">cat languages.txt</span>
+    Python, JavaScript, C
+<span class="prompt">$</span> <span class="command">cat education.txt</span>
+    Currently pursuing B.Tech in EE at NITJ
+    Semester: 2
+<span class="prompt">$</span> <span class="command">ls projects</span>
+    <a href="#" target="_blank">Project 1</a>
+<span class="prompt">$</span> <span class="command">cd hobbies</span>
+<span class="prompt">~/hobbies$</span> <span class="command">cat motorcycles.txt</span>
+    Enthusiast, Passionate about motorcycles
+<span class="quote">"Life is like riding a motorcycle. To keep your balance, you must keep moving."</span>
+<span class="prompt">~/hobbies$</span> <span class="command typing">cd ..</span>
+<span class="prompt">$</span> <span class="command">cat contact.txt</span>
+    Email: <a href="mailto:kanavg.ee.23@nitj.ac.in">kanavg.ee.23@nitj.ac.in</a>
+    LinkedIn: <a href="https://www.linkedin.com/in/kanav-garg-206936279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+<span class="prompt"><span class="cursor"></span></span>
+        </pre>
+    </div>
+</main>
+
+</body>
+</html>
